@@ -17,7 +17,7 @@ describe('API Endpoints', () => {
   it('should return Hello World on /home', async () => {
     const res = await request(`http://localhost:${port}`).get('/home');
     expect(res.statusCode).toEqual(200);
-    expect(res.text).toEqual('Hello, World! Welcome to DevOps with Vercel.');
+    expect(res.text).toEqual('Hello, World! Welcome to the world of programming.');
   });
 
   it('should return user data on /user', async () => {
