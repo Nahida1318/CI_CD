@@ -9,7 +9,7 @@ app.get('/home', (req, res) => {
 // Endpoint: /user
 app.get('/user', (req, res) => {
   res.json({
-    name: 'nahida sultana',
+    name: 'nahida_sultana',
     email: 'bsse1318@iit.du.ac.bd',
   });
 });
