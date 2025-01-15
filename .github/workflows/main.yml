@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI_CD
 
 on:
   push:
@@ -36,4 +36,3 @@ jobs:
           npx vercel deploy --prod --token $VERCEL_TOKEN --yes --name valid-project-name
 
 
-          
