@@ -24,7 +24,7 @@ describe('API Endpoints', () => {
     const res = await request(`http://localhost:${port}`).get('/user');
     expect(res.statusCode).toEqual(200);
     expect(res.body).toEqual({
-      name: 'nahida',
+      name: 'nahida sultana',
       email: 'bsse1318@iit.du.ac.bd',
     });
   });
