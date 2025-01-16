@@ -3,7 +3,7 @@ const app = express();
 
 // Endpoint: /home
 app.get('/home', (req, res) => {
-  res.send('Hello, World! Welcome to the world of programming.');
+  res.send('Hello, World to you! Welcome to the world of programming.');
 });
 
 // Endpoint: /user
